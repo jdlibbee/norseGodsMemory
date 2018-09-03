@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Tyr",
+        "image": "../public/images/tyr"
+    },
+    {
+        "id": 2,
+        "name": "Freyer",
+        "image": "../public/images/freyer"
+    },
+    {
+        "id": 3,
+        "name": "Vidar",
+        "image": "../public/images/vidar"
+    },
+    {
+        "id": 4,
+        "name": "Snotra",
+        "image": "../public/images/snotra"
+    },
+    {
+        "id": 5,
+        "name": "Ullr",
+        "image": "../public/images/ullr"
+    },
+    {
+        "id": 6,
+        "name": "Hodr",
+        "image": "../public/images/hodr"
+    },
+    {
+        "id": 7,
+        "name": "Hoenir",
+        "image": "../public/images/hoenir"
+    },
+    {
+        "id": 8,
+        "name": "Jord",
+        "image": "../public/images/jord"
+    },
+    {
+        "id": 9,
+        "name": "Hel",
+        "image": "../public/images/hel"
+    },
+    {
+        "id": 10,
+        "name": "Bragi",
+        "image": "../public/images/bragi"
+    },
+    {
+        "id": 11,
+        "name": "Njordr",
+        "image": "../public/images/njordr"
+    },
+    {
+        "id": 12,
+        "name": "Delling",
+        "image": "../public/images/delling"
+    }
+]
