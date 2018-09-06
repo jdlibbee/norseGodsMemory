@@ -2,61 +2,61 @@
     {
         "id": 1,
         "name": "Tyr",
-        "image": "../public/images/tyr"
+        "image": "/images/tyr.png"
     },
     {
         "id": 2,
         "name": "Freyer",
-        "image": "../public/images/freyer"
+        "image": "/images/freyer.png"
     },
     {
         "id": 3,
         "name": "Vidar",
-        "image": "../public/images/vidar"
+        "image": "./images/vidar.png"
     },
     {
         "id": 4,
         "name": "Snotra",
-        "image": "../public/images/snotra"
+        "image": "/images/snotra.png"
     },
     {
         "id": 5,
         "name": "Ullr",
-        "image": "../public/images/ullr"
+        "image": "/images/ullr.png"
     },
     {
         "id": 6,
         "name": "Hodr",
-        "image": "../public/images/hodr"
+        "image": "/images/hodr.png"
     },
     {
         "id": 7,
         "name": "Hoenir",
-        "image": "../public/images/hoenir"
+        "image": "/images/hoenir.png"
     },
     {
         "id": 8,
         "name": "Jord",
-        "image": "../public/images/jord"
+        "image": "/images/jord.png"
     },
     {
         "id": 9,
         "name": "Hel",
-        "image": "../public/images/hel"
+        "image": "/images/hel.png"
     },
     {
         "id": 10,
         "name": "Bragi",
-        "image": "../public/images/bragi"
+        "image": "/images/bragi.png"
     },
     {
         "id": 11,
         "name": "Njordr",
-        "image": "../public/images/njordr"
+        "image": "/images/njordr.png"
     },
     {
         "id": 12,
         "name": "Delling",
-        "image": "../public/images/delling"
+        "image": "/images/delling.png"
     }
 ]

@@ -10,9 +10,16 @@ class App extends Component {
         gods
     };
 
-    shuffleGods = id => {
-        const gods = this.state.gods
-        this.setState([gods]);
+    shuffleGods = (gods) => {
+        let i = gods.length - 1;
+        while (i > 0) {
+            const j = Math.floor(Math.random() * (i + 1));
+            const temp = gods[i];
+            gods[i] = gods[j];
+            gods[j] = temp;
+            i--;
+        }
+        return gods;
     };
 
     render() {
