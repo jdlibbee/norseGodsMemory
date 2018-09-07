@@ -26,15 +26,19 @@ class App extends Component {
         return (
             <Wrapper>
                 <Title>Norse Gods</Title>
-                {this.state.gods.map(gods => (
-                    <GodCard
-                        shuffleGods={this.shuffleGods}
-                        id={gods.id}
-                        key={gods.id}
-                        name={gods.name}
-                        image={gods.image}
-                    />
-                ))}
+                <div className="container">
+                    <div className="row">
+                        {this.state.gods.map(gods => (
+                            <GodCard
+                                shuffleGods={this.shuffleGods}
+                                id={gods.id}
+                                key={gods.id}
+                                name={gods.name}
+                                image={gods.image}
+                            />
+                        ))}
+                    </div>
+                </div>
             </Wrapper>
         )
     }
