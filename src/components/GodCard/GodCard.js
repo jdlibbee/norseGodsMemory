@@ -2,7 +2,6 @@ import React from "react";
 import "./GodCard.css";
 
 const GodCard = props => (
-
     <div className="col s3 m4">
         <div className="card">
             <div className="card-image">

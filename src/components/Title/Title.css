@@ -1,7 +1,14 @@
-li {
-    margin-left: 25px;
+li{
+    margin-left: 20px;
 }
 
-.instructions{
-    margin-right: 25px;
+.nav-wrapper{
+    background-image: url("../../assets/images/earthSymbol.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h3{
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+    margin: auto;
 }
