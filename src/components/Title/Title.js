@@ -4,7 +4,7 @@ import "./Title.css";
 const Title = props =>
     (<div>
         <nav>
-            <div class="nav-wrapper">
+            <div className="nav-wrapper">
                 <a className="brand-logo center title">
                     <h3>{props.children}</h3>
                 </a>
