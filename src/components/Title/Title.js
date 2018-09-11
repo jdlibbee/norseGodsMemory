@@ -2,7 +2,7 @@ import React from "react";
 import "./Title.css";
 
 const Title = props =>
-    (<div>
+    (<div className="navbar-fixed">
         <nav>
             <div className="nav-wrapper">
                 <a className="brand-logo center title">
