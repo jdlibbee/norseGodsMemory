@@ -30,6 +30,15 @@ class App extends Component {
 
         return gods;
     };
+    updateHighScore = () => {
+        let highscore = this.state.highscore;
+        let score = this.state.score;
+        if (score > highscore) {
+            this.setState({
+                highscore: this.state.score
+            })
+        }
+    }
 
 
     findAndUpdateGods = (array, id) => {
@@ -61,6 +70,7 @@ class App extends Component {
             })
         }
         else {
+            this.updateHighScore()
             this.setState({
                 gods: [
                     {
@@ -145,7 +155,9 @@ class App extends Component {
     render() {
         return (
             <Wrapper>
-                <Title>Norse Gods</Title>
+                <Title
+                    score={this.state.score}
+                    highscore={this.state.highscore}>Norse Gods</Title>
                 <div className="container">
                     <div className="row">
                         {this.state.gods.map(gods => {

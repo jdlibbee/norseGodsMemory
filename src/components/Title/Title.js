@@ -9,8 +9,8 @@ const Title = props =>
                     <h3>{props.children}</h3>
                 </a>
                 <ul>
-                    <li>Scores: </li>
-                    <li>Best Score: </li>
+                    <li>Scores: {props.score}</li>
+                    <li>Best Score: {props.highscore}</li>
                 </ul>
             </div>
         </nav>
